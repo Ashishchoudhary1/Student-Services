@@ -17,7 +17,7 @@ import com.in28minutes.springboot.service.StudentService;
 
 @RestController
 public class StudentController {
-
+     int i = 10;
 	@Autowired
 	private StudentService studentService;
 
